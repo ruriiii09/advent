@@ -48,7 +48,7 @@ def result(hand,pl,plname,k2,k3):
     elif 3 in pl:
         print(plname,":",*hand,"--->",*k3,"スリーカード")
     else:
-        print(plname,*hand,"--->",*k3,":ノーペア")
+        print(plname,":",*hand,"--->",*k3,"ノーペア")
 
 result(pl1,handCount1,player1,keys12,keys13)
 result(pl2,handCount2,player2,keys22,keys23)
