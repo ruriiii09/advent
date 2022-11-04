@@ -1,8 +1,5 @@
 import random
 
-word_list = ["APPLE","GRAPE","LEMON","MANGO","MELON","PEACH","PRUNE"]
-#print(len(word_list))
-
 OPENING_MESSAGE = """
 __________________________________
 ＊＊＊＊Welcome to WORDLE＊＊＊＊
